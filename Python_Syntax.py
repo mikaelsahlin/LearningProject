@@ -22,4 +22,15 @@ String methods
 lower() - var.lower()
 upper() - var.upper()
 print string_var   Prints the string variable
+%s and % used to replace %s with % (var1, var2, var3). First %s will be str(var1)
+
+Adding libraries
+from datetime import datetime
+
+var = datetime.now() returns the current date and time.
+var.year() returns the year. works the same with month, day, hour, minute, second.... etc.
+
+Comparators
+==,!=,<,>,<=,>0 # Can be used as boolean_var = (2<3) -> True
+not - is used to negate booleans swap between True/False.
 ""
